@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dquimbitaT1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label Text="TAREA SEMANA 1 DIEGO QUIMBITA" FontSize="32" HorizontalOptions="Center" />
+            <Label Text="Nombre" FontSize="14" HorizontalOptions="Center" />
+            <Entry x:Name="txtNombre" Placeholder="Ingrese su nombre"/>
+            <Label Text="Apellido" FontSize="14" HorizontalOptions="Center" />
+            <Entry x:Name="txtApellido" Placeholder="Ingrese su nombre"/>
+            <Label Text="Edad" FontSize="14" HorizontalOptions="Center" />
+            <Entry x:Name="txtEdad" Placeholder="Ingrese su nombre"/>
+            <Label Text="Salario" FontSize="14" HorizontalOptions="Center" />
+            <Entry x:Name="txtSalario"  Placeholder="Ingrese su nombre"/>
+            <Button x:Name="btnRevisar" Text="Consultar"  Clicked="btnRevisar_Clicked" HorizontalOptions="Center" BackgroundColor="Orange" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
